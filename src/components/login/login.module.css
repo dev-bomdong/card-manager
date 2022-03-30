@@ -1,0 +1,40 @@
+@value berryPink from '../../common/colors.css';
+
+.login {
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.body {
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  width: 100%;
+  height: 2.5em;
+  border: 1px;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+}
+
+.btn:hover {
+  background-color: berryPink;
+  color: white;
+}

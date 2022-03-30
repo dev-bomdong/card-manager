@@ -1,0 +1,7 @@
+@value grayPurple, makerWhite from '../../common/colors.css';
+.footer {
+  width: 100%;
+  background-color: grayPurple;
+  text-align: center;
+  height: 2em;
+}
